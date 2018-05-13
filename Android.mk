@@ -1,4 +1,4 @@
-ifeq ($(call my-dir)/$(TARGET_BOARD_PLATFORM),$(call project-path-for,qcom-display))
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),aosp)
 
 LOCAL_PATH := $(call my-dir)
 # TODO:  Find a better way to separate build configs for ADP vs non-ADP devices
